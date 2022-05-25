@@ -61,7 +61,7 @@ const completeTask = index => {
 
 
 const deleteTask = index => {
-    todoItemElems[index].classList.add('delition');///write in css
+    todoItemElems[index].classList.add('delition');
     setTimeout(() => {
         tasks.splice(index, 1);
         updateLocal();

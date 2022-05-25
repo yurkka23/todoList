@@ -66,7 +66,7 @@ const deleteTask = index => {
         tasks.splice(index, 1);
         updateLocal();
         fillHtmlList();
-    }, 500);
+    }, 1000);
 }
 
 addTaskBtn.addEventListener('click', () => {

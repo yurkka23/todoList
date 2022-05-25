@@ -81,9 +81,18 @@ h2{
 .checked{
     opacity: 0.5;
 }
+.todo-item.delition{
+    animation: opacity 1s ease-in-out;
+}
 
-
-  
+@keyframes opacity {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
  
   
   
